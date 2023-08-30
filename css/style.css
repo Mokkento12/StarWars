@@ -99,7 +99,7 @@ body {
   position: absolute;
   width: 65px;
   height: 65px;
-  background: #fff url('../img/play.svg') center no-repeat;
+  background: #fff url('../img/play.svg') center center no-repeat;
   right: 0;
   top: 0;
   border-radius: 50%;
