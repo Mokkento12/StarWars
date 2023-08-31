@@ -7,6 +7,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -36,13 +37,138 @@
                     финал фантастической саги</p>
                 <span class="hero__premier">Премьера</span>
                 <span class="hero__date">19 декабря 2019</span>
-                <button class="button-play hero__button-play">Смотреть
-                    трейлер</button>
+                <a data-fancybox
+                    href="https://www.youtube.com/watch?v=KVRBfWQgyuY&ab_channel=iVideos"
+                    class="button-play hero__button-play">Смотреть
+                    трейлер</a>
             </div>
             <!-- /.hero -->
+            <div class="episodes">
+                <h2 class="episodes-title">Предыдущие эпизоды</h2>
+                <div class="slider">
+                    <div class="slider__item">
+                        <img src="img/1.jpg" alt="" class="slider__image">
+                        <div class="slider__year">1977</div>
+                        <!-- /.slider__year -->
+                        <h3 class="slider__title">Эпизод IV: <br>Новая надежда
+                        </h3>
+                        <!-- /.slider__title -->
+                        <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <!-- /.slider__rating-label -->
+                        </div>
+                        <!-- /.slider__rating -->
+                    </div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item">
+                        <img src="img/2.jpg" alt="" class="slider__image">
+                        <div class="slider__year">1980</div>
+                        <!-- /.slider__year -->
+                        <h3 class="slider__title">Эпизод V: <br>Империя наносит
+                            ответный удар</h3>
+                        <!-- /.slider__title -->
+                        <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <!-- /.slider__rating-label -->
+                        </div>
+                        <!-- /.slider__rating -->
+                    </div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item">
+                        <img src="img/3.jpg" alt="" class="slider__image">
+                        <div class="slider__year">1983</div>
+                        <!-- /.slider__year -->
+                        <h3 class="slider__title">Эпизод VI: <br>Возвращение
+                            джедая</h3>
+                        <!-- /.slider__title -->
+                        <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <!-- /.slider__rating-label -->
+                        </div>
+                        <!-- /.slider__rating -->
+                    </div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item">
+                        <img src="img/4.jpg" alt="" class="slider__image">
+                        <div class="slider__year">1999</div>
+                        <!-- /.slider__year -->
+                        <h3 class="slider__title">Эпизод I: <br>Скрытая угроза
+                        </h3>
+                        <!-- /.slider__title -->
+                        <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <!-- /.slider__rating-label -->
+                        </div>
+                        <!-- /.slider__rating -->
+                    </div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item">
+                        <img src="img/5.jpg" alt="" class="slider__image">
+                        <div class="slider__year">2002</div>
+                        <!-- /.slider__year -->
+                        <h3 class="slider__title">Звёздные войны: <br>Эпизод II
+                            — Атака клонов</h3>
+                        <!-- /.slider__title -->
+                        <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <!-- /.slider__rating-label -->
+                        </div>
+                        <!-- /.slider__rating -->
+                    </div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item">
+                        <img src="img/6.jpg" alt="" class="slider__image">
+                        <div class="slider__year">2005</div>
+                        <!-- /.slider__year -->
+                        <h3 class="slider__title">
+                            Звёздные войны: <br>Эпизод III — Месть ситхов</h3>
+                        <!-- /.slider__title -->
+                        <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <!-- /.slider__rating-label -->
+                        </div>
+                        <!-- /.slider__rating -->
+                    </div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item">
+                        <img src="img/7.jpg" alt="" class="slider__image">
+                        <div class="slider__year">2015</div>
+                        <!-- /.slider__year -->
+                        <h3 class="slider__title">Звёздные войны:
+                            <br>Пробуждение силы
+                        </h3>
+                        <!-- /.slider__title -->
+                        <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <!-- /.slider__rating-label -->
+                        </div>
+                        <!-- /.slider__rating -->
+                    </div>
+                    <!-- /.slider__item -->
+                    <div class="slider__item">
+                        <img src="img/8.jpg" alt="" class="slider__image">
+                        <div class="slider__year">2017</div>
+                        <!-- /.slider__year -->
+                        <h3 class="slider__title">Звёздные войны: <br>Последние
+                            джедаи</h3>
+                        <!-- /.slider__title -->
+                        <div class="slider__rating">
+                            <span class="slider__rating-label">Рейтинг</span>
+                            <!-- /.slider__rating-label -->
+                        </div>
+                        <!-- /.slider__rating -->
+                    </div>
+                    <!-- /.slider__item -->
+                </div>
+                <!-- /.slider -->
+            </div>
+            <!-- /.episodes -->
         </main>
     </div>
     <!-- /.container -->
+    <script src="js/jquery-3.7.0.min.js">
+    </script>
+    <link rel="stylesheet" href="js/jquery.fancybox.min.js" />
     <script src="js/main.js"></script>
 </body>
 </html>
