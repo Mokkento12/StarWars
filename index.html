@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -45,7 +46,7 @@
             <!-- /.hero -->
             <div class="episodes">
                 <h2 class="episodes-title">Предыдущие эпизоды</h2>
-                <div class="slider">
+                <div class="slider owl-carousel">
                     <div class="slider__item">
                         <img src="img/1.jpg" alt="" class="slider__image">
                         <div class="slider__year">1977</div>
@@ -56,6 +57,13 @@
                         <div class="slider__rating">
                             <span class="slider__rating-label">Рейтинг</span>
                             <!-- /.slider__rating-label -->
+                            <span class="slider__rating-stars">
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star star-o"></i>
+                            </span>
                         </div>
                         <!-- /.slider__rating -->
                     </div>
@@ -169,6 +177,7 @@
     <script src="js/jquery-3.7.0.min.js">
     </script>
     <link rel="stylesheet" href="js/jquery.fancybox.min.js" />
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
