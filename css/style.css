@@ -15,7 +15,7 @@
 }
 
 body {
-  background: #070506 url('/img/main-bg.png')no-repeat;
+  background: #070506 url('/img/main-bg.png') top right 100% no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
@@ -81,6 +81,11 @@ body {
   font-size: 24px;
   line-height: 150%;
   margin-bottom: 46px;
+}
+
+.button {
+  display: inline-block;
+  animation-iteration-count: infinite;
 }
 
 .button-play {
@@ -169,6 +174,14 @@ body {
   background: rgba(64, 101, 255, 0.86);
 }
 
+.slider__rating-stars {
+  opacity: 0;
+}
+
+.slider__item:hover .slider__rating-stars {
+  opacity: 1;
+}
+
 .slider__image {
   position: absolute;
   left: 0;
@@ -219,7 +232,35 @@ body {
 }
 
 @media(max-width: 600px) {
+
+  .hero__subtitle {
+    font-size: 24px;
+  }
+
   .hero__title {
     font-size: 36px;
+    line-height: 120%;
+  }
+
+  .hero__description {
+    font-size: 16px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header__logo {
+    margin-bottom: 30px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav__link {
+    margin-bottom: 10px;
   }
 }
